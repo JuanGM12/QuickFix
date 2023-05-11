@@ -1,9 +1,6 @@
 <?php
+if(isset($informacion)){
 switch ($informacion) {
-    case 'inicio':
-        include("vista/inicio.php");
-        break;
-
     case 'notificaciones':
         include("vista/notificaciones.php");
         break;
@@ -24,3 +21,4 @@ switch ($informacion) {
         include("vista/agenda.php");
         break;
 }
+}else{}
