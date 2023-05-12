@@ -36,4 +36,24 @@ class moduloUsuarioDAO extends base_datos {
         }
     }
 
+    public function fn_loginUsuario(int $documento , string $clave) {
+        $query = "SELECT uw.documento_usuario, uw.clave
+                  FROM usuario_web uw
+                  WHERE uw.documento_usuario = ? AND uw.clave = ? ";
+        $this->connect();
+        $stmt = $this->conn->prepare($query);
+        if (!$stmt) {
+            $this->close_db();
+            throw new Exception('Error al obtener la información del usuario (c_uD-QE-1E5V2)');
+        }else{
+            $stmt->bind_param("is", $documento, $clave); // 'is' indica que los parametros son enteros y string
+            $stmt->execute();
+            $result = $stmt->get_result()->fetch_assoc();
+            $result ? $idUser = $result['documento_usuario'] : $idUser = 0;
+            $this->close_db();
+            $stmt->close();
+            return $idUser;
+        }
+    }
+
 }

@@ -45,6 +45,19 @@ function responsiveSidePanel() {
 	}
 };
 
+function ejecutarAlerta(titulo, texto, icono, textobtn, reload = false, outSide = true) {
+	Swal.fire({
+	  icon: icono,
+	  title: titulo,
+	  html: texto,
+	  confirmButtonText: textobtn,
+	  allowOutsideClick: outSide,
+	  allowEscapeKey: outSide
+	}).then((result) => {
+	  reload ? location.reload() : '';
+	});
+  }
+
 sidePanelToggler.addEventListener('click', () => {
 	if (sidePanel.classList.contains('sidepanel-visible')) {
 		console.log('visible');

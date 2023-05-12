@@ -16,4 +16,18 @@ class moduloUsuarioControl {
 		return $usuarios;
     }
 
+    public function fn_loginUsuario(int $documento, string $clave) {
+        $moduloUsuarioDAO = new moduloUsuarioDAO();
+        if ($documento == "" || $documento == NULL || $clave == "" || $clave == NULL) {
+            throw new Exception('ERROR: Se necesita un usuario y clave');
+            return false;
+        }
+        $idusuario = $moduloUsuarioDAO->fn_loginUsuario($documento, $clave);
+        if (!$idusuario) {
+            return false;
+        }else{
+            return  true;
+        }
+    }
+
 }
