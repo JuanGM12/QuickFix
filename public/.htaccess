@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+
+RewriteRule ^inicio$ /index.php [L]
+
+RewriteRule ^producto/(.*)$  /productos.php?id=$1 [L]
+RewriteRule ^contacto$  /index.php?inicio=contacto [L]
+RewriteRule ^inicio$  /index.php [L]

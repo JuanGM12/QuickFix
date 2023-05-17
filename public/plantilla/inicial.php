@@ -1,8 +1,10 @@
 <?php
+$plantilla = "plantilla/";
+$vista = "vista/";
+    include ($plantilla ."headerInicial.php");
 
-?>
-<body class="app">    
-<div class="app-wrapper">
-    Pagina
-</div>
-</body>
+if (!isset($_GET['inicio'])) {
+ include ($vista. "inicial.php");
+    echo '<link rel="stylesheet" href="/plantilla/css/estilos.css">';
+}else{
+}

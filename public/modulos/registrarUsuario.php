@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Registro de Usuario</title>
-</head>
 <style>
         body {
             font-family: Arial, sans-serif;
@@ -109,8 +104,7 @@
 
         <label>Foto de Perfil:</label>
         <input type="file" name="foto_perfil"><br><br>
-
+        
         <input type="submit" value="Registrarse">
+        <input type="submit" value="Atrás" onclick="location.href='../inicio'">
     </form>
-</body>
-</html>

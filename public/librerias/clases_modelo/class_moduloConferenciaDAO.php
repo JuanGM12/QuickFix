@@ -1,17 +1,5 @@
 <?php
 
-/*
- * Hecho en 01/08/2011
- * Actualizado en 01/03/2012
- * ----------------------------------------------
- * Clase de control de datos para modulos de conferencias
- * Copyright (c) Grupo Mide S.A
- * URL: http://www.grupomide.com
- * Proyecto: Aula Virtual
- * ----------------------------------------------
- */
-
-
 class moduloConferenciaDAO extends base_datos {
 
 	public function __construct() {
@@ -257,37 +245,6 @@ class moduloConferenciaDAO extends base_datos {
 		$this->close_db();
 		return $oCodigosSubModulos;
 	} //Fin fn_retornarSubModulosConferencia
-
-	/*
- * Funciones de inserciones
- */
-
-	//Funcion de insercion de un modulo conferencia
-	public function fn_ingresarModulo($iidmoduloPadre, $idsNombreModulo, $idsDescipcionModulo, $idsRutaImagenModulo, $idsTipoVisualizacion, $idsTieneDipoma, $idsEvaluacionModulo, $ifealta, $ifebaja, $iidUsuarioModificador, $idioma = "", $titulotexto, $autor) {
-		$idsNombreModulo     = ($idsNombreModulo);
-		$idsDescipcionModulo = ($idsDescipcionModulo);
-		if ($iidmoduloPadre == "" || $iidmoduloPadre == 0 || $iidmoduloPadre == NULL) {
-			$query = "";
-			$query = "INSERT INTO modulo_conferencia" . $idioma . " ";
-			$query .= "(dsnombre_modulo, dsdescripcion_modulo, dsruta_imagen_modulo, dstipo_visualizacion, ";
-			$query .= "dstiene_diploma, dsevaluacion_modulo, dsestado_menu_principal, dsestado_inicio, fealta, febaja, idusuario_modificador, femodificacion) VALUES ";
-			$query .= "('$idsNombreModulo', '$idsDescipcionModulo', '$idsRutaImagenModulo', ";
-			$query .= "'$idsTipoVisualizacion', '$idsTieneDipoma', '$idsEvaluacionModulo', '$autor', '$titulotexto', '$ifealta', '$ifebaja', $iidUsuarioModificador, NOW());";
-		} //Fin if
-		else {
-			$query = "";
-			$query = "INSERT INTO modulo_conferencia" . $idioma . " ";
-			$query .= "(idmodulo_padre, dsnombre_modulo, dsdescripcion_modulo, dsruta_imagen_modulo, dstipo_visualizacion, ";
-			$query .= "dstiene_diploma, dsevaluacion_modulo, dsestado_menu_principal, dsestado_inicio, fealta, febaja, idusuario_modificador, femodificacion) VALUES ";
-			$query .= "($iidmoduloPadre, '$idsNombreModulo', '$idsDescipcionModulo', '$idsRutaImagenModulo', ";
-			$query .= "'$idsTipoVisualizacion', '$idsTieneDipoma', '$idsEvaluacionModulo', '$autor', '$titulotexto', '$ifealta', '$ifebaja', $iidUsuarioModificador, NOW());";
-		}
-		$this->connect();
-		$this->query($query, "class_moduloConferenciaDAO.php: fn_ingresarModulo");
-		$oidModuloConferencia = $this->last_insert();
-		$this->close_db();
-		return $oidModuloConferencia;
-	} //Fin fn_ingresarModulo
 
 	/** Actualizacion 2020   */
 

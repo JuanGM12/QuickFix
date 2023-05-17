@@ -1,15 +1,5 @@
 <?php
 
-/*
- * Hecho en 08/08/2011
- * Actualizado en 01/03/2012
- * ----------------------------------------------
- * Clase de control de datos del modulo de conferencias
- * Copyright (c) Grupo Mide S.A
- * URL: http://www.grupomide.com
- * Proyecto: Aula Virtual 
- * ----------------------------------------------
- */
 require_once PATH_REQUIRES;
 
 class moduloConferenciaControl {

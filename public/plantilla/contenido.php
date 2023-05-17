@@ -22,3 +22,15 @@ switch ($informacion) {
         break;
 }
 }else{}
+
+if(isset($inicio)){
+    switch ($inicio) {
+        case 'contacto':
+            include("vista/contacto.php");
+            break;
+
+        case 'registrarse':
+            include("modulos/registrarUsuario.php");
+            break;
+    }
+}else{}

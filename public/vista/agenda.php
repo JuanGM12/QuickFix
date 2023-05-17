@@ -20,10 +20,6 @@ $citas = array(
     '2023-05-12' => array('9:30 AM', '1:30 PM', '4:00 PM')
 );
 ?>
-
-<!DOCTYPE html>
-<html>
-<head>
     <style>
         table {
             border-collapse: collapse;
@@ -49,9 +45,10 @@ $citas = array(
             margin-bottom: 5px;
         }
     </style>
-</head>
+
 <body class="app">
     <div class="app-wrapper">
+        <div class="app-content pt-3 p-md-3 p-lg-4">
     <h1>Calendario de citas</h1>
         <table>
             <tr>
@@ -76,6 +73,6 @@ $citas = array(
                 </tr>
             <?php endforeach; ?>
         </table>
+        </div>
     </div>
 </body>
-</html>

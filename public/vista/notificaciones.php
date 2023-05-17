@@ -6,16 +6,15 @@
 			    <div class="position-relative mb-3">
 				    <div class="row g-3 justify-content-between">
 					    <div class="col-auto">
-					        <h1 class="app-page-title mb-0">Notifications</h1>
+					        <h1 class="app-page-title mb-0">Notificaciones</h1>
 					    </div>
 					    <div class="col-auto">
 					        <div class="page-utilities">
 							    <select class="form-select form-select-sm w-auto" >
-								  <option selected value="option-1">All</option>
-								  <option value="option-2">News</option>
-								  <option value="option-3">Product</option>
-								  <option value="option-4">Project</option>
-								  <option value="option-4">Billing</option>
+								  <option selected value="option-1">Todas</option>
+								  <option value="option-2">Actualizaciones</option>
+								  <option value="option-3">Servicios</option>
+								  <option value="option-4">Facturas</option>
 								</select>
 					        </div><!--//page-utilities-->
 					    </div>
@@ -29,11 +28,11 @@
 				                <img class="profile-image" src="/plantilla/images/profiles/profile-1.png" alt="">
 					        </div><!--//col-->
 					        <div class="col-12 col-lg-auto text-center text-lg-start">
-						        <div class="notification-type mb-2"><span class="badge bg-info">Project</span></div>
-						        <h4 class="notification-title mb-1">Notification Heading Lorem Ipsum</h4>
+						        <div class="notification-type mb-2"><span class="badge bg-info">Servicio</span></div>
+						        <h4 class="notification-title mb-1">Mi auto se descompuso</h4>
 						        
 						        <ul class="notification-meta list-inline mb-0">
-							        <li class="list-inline-item">2 hrs ago</li>
+							        <li class="list-inline-item">Hace 2 horas</li>
 							        <li class="list-inline-item">|</li>
 							        <li class="list-inline-item">Amy Doe</li>
 						        </ul>
@@ -42,10 +41,10 @@
 				        </div><!--//row-->
 				    </div><!--//app-card-header-->
 				    <div class="app-card-body p-4">
-					    <div class="notification-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ultrices dolor, ac maximus ligula. Donec ex orci, mollis ac purus vel, tempor pulvinar justo. Praesent nibh massa, posuere non mollis vel, molestie non mauris. Aenean consequat facilisis orci, sed sagittis mauris interdum at.</div>
+					    <div class="notification-content">Buenos días, vi tu servicio de mecánico y estoy interesada en contratarlo, podemos hablar para acordarlo?</div>
 				    </div><!--//app-card-body-->
 				    <div class="app-card-footer px-4 py-3">
-					    <a class="action-link" href="#">View all<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right ms-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					    <a class="action-link" href="#">Ver más<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right ms-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 </svg></a>
 				    </div><!--//app-card-footer-->
@@ -63,90 +62,27 @@
 								</div><!--//app-icon-holder-->
 					        </div><!--//col-->
 					        <div class="col-12 col-lg-auto text-center text-lg-start">
-						        <div class="notification-type mb-2"><span class="badge bg-warning">Billing</span></div>
-						        <h4 class="notification-title mb-1">Notification Heading Lorem Ipsum</h4>
+						        <div class="notification-type mb-2"><span class="badge bg-warning">Factura</span></div>
+						        <h4 class="notification-title mb-1">Ha recibido un nuevo pago por el servicio prestado!</h4>
 						        
 						        <ul class="notification-meta list-inline mb-0">
-							        <li class="list-inline-item">1 day ago</li>
+							        <li class="list-inline-item">Hace 1 día</li>
 							        <li class="list-inline-item">|</li>
-							        <li class="list-inline-item">System</li>
+							        <li class="list-inline-item">Sistema</li>
 						        </ul>
 						   
 					        </div><!--//col-->
 				        </div><!--//row-->
 				    </div><!--//app-card-header-->
 				    <div class="app-card-body p-4">
-					    <div class="notification-content">Praesent nibh massa, posuere non mollis vel, molestie non mauris. Aenean consequat facilisis orci, sed sagittis mauris interdum at.</div>
+					    <div class="notification-content">Esta notificación es para informarle que ha recibido un pago por finalizar un servicio, puede verlo en el apartado de "Terminados" en su panel de control.</div>
 				    </div><!--//app-card-body-->
 				    <div class="app-card-footer px-4 py-3">
-					    <a class="action-link" href="#">View invoice<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right ms-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					    <a class="action-link" href="#">Ver más<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right ms-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 </svg></a>
 				    </div><!--//app-card-footer-->
 				</div><!--//app-card-->
-				
-				<div class="app-card app-card-notification shadow-sm mb-4">
-				    <div class="app-card-header px-4 py-3">
-				        <div class="row g-3 align-items-center">
-					        <div class="col-12 col-lg-auto text-center text-lg-start">						        
-				                <div class="app-icon-holder icon-holder-mono">
-										<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bar-chart-line" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z"/>
-</svg>
-								</div><!--//app-icon-holder-->
-					        </div><!--//col-->
-					        <div class="col-12 col-lg-auto text-center text-lg-start">
-						        <div class="notification-type mb-2"><span class="badge bg-info">Project</span></div>
-						        <h4 class="notification-title mb-1">Notification Heading Lorem Ipsum</h4>
-						        
-						        <ul class="notification-meta list-inline mb-0">
-							        <li class="list-inline-item">3 days ago</li>
-							        <li class="list-inline-item">|</li>
-							        <li class="list-inline-item">System</li>
-						        </ul>
-						   
-					        </div><!--//col-->
-				        </div><!--//row-->
-				    </div><!--//app-card-header-->
-				    <div class="app-card-body p-4">
-					    <div class="notification-content">Proin a magna sit amet mauris mollis mattis in at dui. Fusce laoreet metus et nunc lobortis, suscipit sollicitudin augue pellentesque. Maecenas maximus iaculis scelerisque.</div>
-				    </div><!--//app-card-body-->
-				    <div class="app-card-footer px-4 py-3">
-					    <a class="action-link" href="#">View invoice<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right ms-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-</svg></a>
-				    </div><!--//app-card-footer-->
-				</div><!--//app-card-->
-
-				<div class="app-card app-card-notification shadow-sm mb-4">
-				    <div class="app-card-header px-4 py-3">
-				        <div class="row g-3 align-items-center">
-					        <div class="col-12 col-lg-auto text-center text-lg-start">						        
-				                <img class="profile-image" src="/plantilla/images/profiles/profile-2.png" alt="">
-					        </div><!--//col-->
-					        <div class="col-12 col-lg-auto text-center text-lg-start">
-						        <div class="notification-type mb-2"><span class="badge bg-secondary">Product</span></div>
-						        <h4 class="notification-title mb-1">Notification Heading Lorem Ipsum</h4>
-						        
-						        <ul class="notification-meta list-inline mb-0">
-							        <li class="list-inline-item">7 days ago</li>
-							        <li class="list-inline-item">|</li>
-							        <li class="list-inline-item">James Smith</li>
-						        </ul>
-						   
-					        </div><!--//col-->
-				        </div><!--//row-->
-				    </div><!--//app-card-header-->
-				    <div class="app-card-body p-4">
-					    <div class="notification-content">Sed tempor faucibus arcu, nec tristique erat congue sed. Pellentesque auctor ut elit vel feugiat. Sed a mauris tempor, tempor lacus vel, tristique metus. Nulla interdum felis id metus fermentum laoreet.</div>
-				    </div><!--//app-card-body-->
-				    <div class="app-card-footer px-4 py-3">
-					    <a class="action-link" href="#">View all<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right ms-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-</svg></a>
-				    </div><!--//app-card-footer-->
-				</div><!--//app-card-->
-				
 				
 				<div class="app-card app-card-notification shadow-sm mb-4">
 				    <div class="app-card-header px-4 py-3">
@@ -155,11 +91,11 @@
 				                <img class="profile-image" src="/plantilla/images/profiles/profile-3.png" alt="">
 					        </div><!--//col-->
 					        <div class="col-12 col-lg-auto text-center text-lg-start">
-						        <div class="notification-type mb-2"><span class="badge bg-success">News</span></div>
-						        <h4 class="notification-title mb-1">Notification Heading Lorem Ipsum</h4>
+						        <div class="notification-type mb-2"><span class="badge bg-success">Actualización</span></div>
+						        <h4 class="notification-title mb-1">Cambio en nuestro portal de Ayuda</h4>
 						        
 						        <ul class="notification-meta list-inline mb-0">
-							        <li class="list-inline-item">7 days ago</li>
+							        <li class="list-inline-item">Hace 7 días</li>
 							        <li class="list-inline-item">|</li>
 							        <li class="list-inline-item">Kate Sanders</li>
 						        </ul>
@@ -168,16 +104,16 @@
 				        </div><!--//row-->
 				    </div><!--//app-card-header-->
 				    <div class="app-card-body p-4">
-					    <div class="notification-content">Sed tempor faucibus arcu, nec tristique erat congue sed. Pellentesque auctor ut elit vel feugiat. Sed a mauris tempor, tempor lacus vel, tristique metus. Nulla interdum felis id metus fermentum laoreet.</div>
+					    <div class="notification-content">Realizamos unos cambios en el apartado de Ayuda para los nuevos clientes y prestadores, dirijase allí y mirelos para estar al tanto de todo!</div>
 				    </div><!--//app-card-body-->
 				    <div class="app-card-footer px-4 py-3">
-					    <a class="action-link" href="#">Read more<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right ms-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					    <a class="action-link" href="#">Ver más<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right ms-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 </svg></a>
 				    </div><!--//app-card-footer-->
 				</div><!--//app-card-->
 
-				<div class="text-center mt-4"><a class="btn app-btn-secondary" href="#">Load more notifications</a></div>
+				<div class="text-center mt-4"><a class="btn app-btn-secondary" href="#">Cargar más notificaciones</a></div>
 			    
 		    </div><!--//container-fluid-->
 	    </div><!--//app-content-->
