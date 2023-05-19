@@ -64,61 +64,61 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td class="cell">#15346</td>
-												<td class="cell"><span class="truncate">Lorem ipsum dolor sit amet eget volutpat erat</span></td>
+												<td class="cell">#1</td>
+												<td class="cell"><span class="truncate">Mecánico a domicilio</span></td>
 												<td class="cell">John Sanders</td>
 												<td class="cell"><span>17 Oct</span><span class="note">2:16 PM</span></td>
 												<td class="cell"><span class="badge bg-success">Terminado</span></td>
 												<td class="cell">$259.350</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<td class="cell"><a class="btn-sm app-btn-secondary" href="calificar">Calificar</a></td>
 											</tr>
 											<tr>
-												<td class="cell">#15345</td>
-												<td class="cell"><span class="truncate">Consectetur adipiscing elit</span></td>
+												<td class="cell">#2</td>
+												<td class="cell"><span class="truncate">Reparación mecánica</span></td>
 												<td class="cell">Dylan Ambrose</td>
 												<td class="cell"><span class="cell-data">16 Oct</span><span class="note">03:16 AM</span></td>
 												<td class="cell"><span class="badge bg-warning">Pendiente</span></td>
 												<td class="cell">$96.200</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<!-- <td class="cell"><a class="btn-sm app-btn-secondary" href="#">Aceptar</a></td> -->
 											</tr>
 											<tr>
-												<td class="cell">#15344</td>
-												<td class="cell"><span class="truncate">Pellentesque diam imperdiet</span></td>
+												<td class="cell">#3</td>
+												<td class="cell"><span class="truncate">Reparación eléctrica</span></td>
 												<td class="cell">Teresa Holland</td>
 												<td class="cell"><span class="cell-data">16 Oct</span><span class="note">01:16 AM</span></td>
 												<td class="cell"><span class="badge bg-success">Terminado</span></td>
 												<td class="cell">$123.000</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<td class="cell"><a class="btn-sm app-btn-secondary" href="calificar">Calificar</a></td>
 											</tr>
 											
 											<tr>
-												<td class="cell">#15343</td>
-												<td class="cell"><span class="truncate">Vestibulum a accumsan lectus sed mollis ipsum</span></td>
+												<td class="cell">#4</td>
+												<td class="cell"><span class="truncate">Alineación de rueda</span></td>
 												<td class="cell">Jayden Massey</td>
 												<td class="cell"><span class="cell-data">15 Oct</span><span class="note">8:07 PM</span></td>
 												<td class="cell"><span class="badge bg-success">Terminado</span></td>
 												<td class="cell">$199.000</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<td class="cell"><a class="btn-sm app-btn-secondary" href="calificar">Calificar</a></td>
 											</tr>
 											
 											<tr>
-												<td class="cell">#15342</td>
-												<td class="cell"><span class="truncate">Justo feugiat neque</span></td>
+												<td class="cell">#5</td>
+												<td class="cell"><span class="truncate">Balanceo de rueda</span></td>
 												<td class="cell">Reina Brooks</td>
 												<td class="cell"><span class="cell-data">12 Oct</span><span class="note">04:23 PM</span></td>
 												<td class="cell"><span class="badge bg-danger">Cancelado</span></td>
 												<td class="cell">$59.000</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<!-- <td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td> -->
 											</tr>
 											
 											<tr>
-												<td class="cell">#15341</td>
-												<td class="cell"><span class="truncate">Morbi vulputate lacinia neque et sollicitudin</span></td>
+												<td class="cell">#6</td>
+												<td class="cell"><span class="truncate">Diágnostico general</span></td>
 												<td class="cell">Raymond Atkins</td>
 												<td class="cell"><span class="cell-data">11 Oct</span><span class="note">11:18 AM</span></td>
 												<td class="cell"><span class="badge bg-success">Terminado</span></td>
 												<td class="cell">$678.260</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<td class="cell"><a class="btn-sm app-btn-secondary" href="calificar">Calificar</a></td>
 											</tr>
 		
 										</tbody>
@@ -162,44 +162,44 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td class="cell">#15346</td>
-												<td class="cell"><span class="truncate">Lorem ipsum dolor sit amet eget volutpat erat</span></td>
+												<td class="cell">#1</td>
+												<td class="cell"><span class="truncate">Mecánico a domicilio</span></td>
 												<td class="cell">John Sanders</td>
 												<td class="cell"><span>17 Oct</span><span class="note">2:16 PM</span></td>
 												<td class="cell"><span class="badge bg-success">Terminado</span></td>
 												<td class="cell">$259.350</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<td class="cell"><a class="btn-sm app-btn-secondary" href="calificar">Calificar</a></td>
 											</tr>
 											
 											<tr>
-												<td class="cell">#15344</td>
-												<td class="cell"><span class="truncate">Pellentesque diam imperdiet</span></td>
+												<td class="cell">#3</td>
+												<td class="cell"><span class="truncate">Reparación eléctrica</span></td>
 												<td class="cell">Teresa Holland</td>
 												<td class="cell"><span class="cell-data">16 Oct</span><span class="note">01:16 AM</span></td>
 												<td class="cell"><span class="badge bg-success">Terminado</span></td>
 												<td class="cell">$123.000</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<td class="cell"><a class="btn-sm app-btn-secondary" href="calificar">Calificar</a></td>
 											</tr>
 											
 											<tr>
-												<td class="cell">#15343</td>
-												<td class="cell"><span class="truncate">Vestibulum a accumsan lectus sed mollis ipsum</span></td>
+												<td class="cell">#4</td>
+												<td class="cell"><span class="truncate">Alineación de rueda</span></td>
 												<td class="cell">Jayden Massey</td>
 												<td class="cell"><span class="cell-data">15 Oct</span><span class="note">8:07 PM</span></td>
 												<td class="cell"><span class="badge bg-success">Terminado</span></td>
 												<td class="cell">$199.000</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<td class="cell"><a class="btn-sm app-btn-secondary" href="calificar">Calificar</a></td>
 											</tr>
 										
 											
 											<tr>
-												<td class="cell">#15341</td>
-												<td class="cell"><span class="truncate">Morbi vulputate lacinia neque et sollicitudin</span></td>
+												<td class="cell">#6</td>
+												<td class="cell"><span class="truncate">Diágnostico general</span></td>
 												<td class="cell">Raymond Atkins</td>
 												<td class="cell"><span class="cell-data">11 Oct</span><span class="note">11:18 AM</span></td>
 												<td class="cell"><span class="badge bg-success">Terminado</span></td>
 												<td class="cell">$678.260</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<td class="cell"><a class="btn-sm app-btn-secondary" href="calificar">Calificar</a></td>
 											</tr>
 		
 										</tbody>
@@ -227,13 +227,13 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td class="cell">#15345</td>
-												<td class="cell"><span class="truncate">Consectetur adipiscing elit</span></td>
+												<td class="cell">#2</td>
+												<td class="cell"><span class="truncate">Reparación mecánica</span></td>
 												<td class="cell">Dylan Ambrose</td>
 												<td class="cell"><span class="cell-data">16 Oct</span><span class="note">03:16 AM</span></td>
 												<td class="cell"><span class="badge bg-warning">Pendiente</span></td>
 												<td class="cell">$96.200</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<!-- <td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td> -->
 											</tr>
 										</tbody>
 									</table>
@@ -260,13 +260,13 @@
 										<tbody>
 											
 											<tr>
-												<td class="cell">#15342</td>
-												<td class="cell"><span class="truncate">Justo feugiat neque</span></td>
+												<td class="cell">#5</td>
+												<td class="cell"><span class="truncate">Balanceo de rueda</span></td>
 												<td class="cell">Reina Brooks</td>
 												<td class="cell"><span class="cell-data">12 Oct</span><span class="note">04:23 PM</span></td>
 												<td class="cell"><span class="badge bg-danger">Cancelado</span></td>
 												<td class="cell">$59.000</td>
-												<td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td>
+												<!-- <td class="cell"><a class="btn-sm app-btn-secondary" href="#">Ver más</a></td> -->
 											</tr>
 											
 										</tbody>

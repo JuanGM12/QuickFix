@@ -28,6 +28,14 @@ switch ($informacion) {
     case 'panel':
         include("vista/misServicios.php");
         break;
+    
+    case 'calificar':
+        include("vista/calificacion.php");
+        break;
+    
+    case 'modificar':
+        include("vista/modificar.php");
+        break;
 }
 }else{}
 

@@ -67,10 +67,10 @@
         echo '<p>Etiquetas: <strong> ' . implode(', ', $servicio['etiquetas']) . '</strong></p>';
 
         // Botón "Modificar Servicio"
-        echo '<button class="btn btn-azul" onclick="window.location.href=\'modificar_servicio.php?nombre=' . urlencode($servicio['nombre']) . '\'">Modificar Servicio</button>';
+        echo '<button class="btn btn-azul" onclick="window.location.href=\'modificar\'">Modificar Servicio</button>';
 
         // Botón "Borrar Servicio"
-        echo '<button class="btn btn-gris" onclick="window.location.href=\'borrar_servicio.php?nombre=' . urlencode($servicio['nombre']) . '\'">Borrar Servicio</button>';
+        echo '<button class="btn btn-gris" onclick="window.location.href=\'solicitudes\'">Borrar Servicio</button>';
 
         echo '<br><br>';
     }
