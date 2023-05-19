@@ -1,27 +1,21 @@
 RewriteEngine on
 
-RewriteBase /
-
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-
 
 RewriteRule ^inicio$ /index.php [L]
 
-RewriteRule ^producto/(.*)$  /productos.php?id=$1 [L]
-RewriteRule ^contacto$  /index.php?inicio=contacto [L]
-RewriteRule ^inicio$  /index.php [L]
-RewriteRule ^servicios$  /index.php?inicio=servicios [L]
-RewriteRule ^solicitudes$  /index.php?informacion=servicios [L]
-RewriteRule ^panel$  /index.php?informacion=panel [L]
-RewriteRule ^chat$  /index.php?informacion=chat [L]
-RewriteRule ^agenda$  index.php?informacion=agenda [L]
-RewriteRule ^ayuda$  index.php?informacion=ayuda [L]
-RewriteRule ^configuracion$  index.php?informacion=configuracion [L]
-RewriteRule ^notificaciones$  index.php?informacion=notificaciones [L]
-RewriteRule ^catalogo$  index.php?inicio=catalogo [L]
-RewriteRule ^detalles$  index.php?inicio=detalles [L]
-RewriteRule ^chatear$  index.php?inicio=chatear [L]
-RewriteRule ^calificar$  index.php?informacion=calificar [L]
-RewriteRule ^modificar$  index.php?informacion=modificar [L]
+RewriteRule ^producto/(.*)$  /productos.php?id=$1
+RewriteRule ^contacto$  /index.php?inicio=contacto
+RewriteRule ^inicio$  /index.php
+RewriteRule ^servicios$  /index.php?inicio=servicios
+RewriteRule ^solicitudes$  /index.php?informacion=servicios
+RewriteRule ^panel$  /index.php?informacion=panel
+RewriteRule ^chat$  /index.php?informacion=chat
+RewriteRule ^agenda$  index.php?informacion=agenda
+RewriteRule ^ayuda$  index.php?informacion=ayuda
+RewriteRule ^configuracion$  index.php?informacion=configuracion
+RewriteRule ^notificaciones$  index.php?informacion=notificaciones
+RewriteRule ^catalogo$  index.php?inicio=catalogo
+RewriteRule ^detalles$  index.php?inicio=detalles
+RewriteRule ^chatear$  index.php?inicio=chatear
+RewriteRule ^calificar$  index.php?informacion=calificar
+RewriteRule ^modificar$  index.php?informacion=modificar
