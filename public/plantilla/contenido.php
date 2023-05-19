@@ -20,6 +20,14 @@ switch ($informacion) {
     case 'agenda':
         include("vista/agenda.php");
         break;
+
+    case 'chat':
+        include("vista/chat.php");
+        break;
+
+    case 'panel':
+        include("vista/misServicios.php");
+        break;
 }
 }else{}
 
@@ -32,5 +40,22 @@ if(isset($inicio)){
         case 'registrarse':
             include("modulos/registrarUsuario.php");
             break;
+
+        case 'servicios':
+            include("vista/listado.php");
+            break;
+        
+        case 'catalogo':
+            include("vista/catalogo.php");
+            break;
+        
+        case 'detalles':
+            include("vista/detalles.php");
+            break;
+        
+        case 'chatear':
+            include("vista/chat.php");
+            break;
+        
     }
 }else{}

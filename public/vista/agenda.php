@@ -3,7 +3,7 @@
 $hoy = date("Y-m-d");
 
 // Define el número de días que quieres mostrar en el calendario
-$numDias = 7;
+$numDias = 15;
 
 // Genera las fechas para el calendario
 $fechas = array();
@@ -15,9 +15,9 @@ for ($i = 0; $i < $numDias; $i++) {
 // Aquí deberías tener una función que obtenga las citas de tu base de datos
 // Por simplicidad, en este ejemplo asumiremos que las citas son almacenadas en un array
 $citas = array(
-    '2023-05-10' => array('9:00 AM', '11:00 AM', '3:00 PM'),
-    '2023-05-11' => array('10:00 AM', '2:00 PM'),
-    '2023-05-12' => array('9:30 AM', '1:30 PM', '4:00 PM')
+    '2023-05-26' => array('9:00 AM', '11:00 AM', '3:00 PM'),
+    '2023-05-28' => array('10:00 AM', '2:00 PM'),
+    '2023-05-30' => array('9:30 AM', '1:30 PM', '4:00 PM')
 );
 ?>
     <style>

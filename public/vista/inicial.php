@@ -41,11 +41,11 @@
                     <h3>Mecánico a domicilio</h3>
                     <p>Presto servicio de mecánico especializado para cualquier tipo de vehículo</p>
                     <ul class="iconos-caracteristicas">
-                    <p><a href="#">Ramiro Perez</a>
+                    <p><a href="catalogo">Ramiro Perez</a>
                     <img src="/plantilla/images/calificacion.png" style="max-width: 50%;"></p> 
-                    <p class="precio">$200,0000</p>
+                    <p class="precio">$200,000</p>
                     </ul>
-                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver Más</a>
+                    <a href="detalles" class="boton boton-amarillo d-block">Ver Más</a>
                 </div>
             </div>
 
@@ -55,11 +55,11 @@
                     <h3>Peluquería o barbería</h3>
                     <p>Necesitas una Peluquería o Barbería, donde te atiendan bajo los cuidados de bioseguridad. #GlamHouse es la indicada, te atienden con cita previa y con profesionales del área de la belleza.</p>
                     <ul class="iconos-caracteristicas">
-                    <p><a href="#">Glam House</a>
+                    <p><a href="catalogo">Glam House</a>
                     <img src="/plantilla/images/calificacion.png" style="max-width: 50%;"></p> 
                     <p class="precio">$150,000</p>
                     </ul>
-                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver Más</a>
+                    <a href="detalles" class="boton boton-amarillo d-block">Ver Más</a>
                 </div>
             </div>
 
@@ -69,17 +69,17 @@
                     <h3>Cocinero en casa</h3>
                     <p>Soy chef profesional y presto servicios a domicilio para cualquier tipo de comida que desees</p>
                     <ul class="iconos-caracteristicas">
-                    <p><a href="#">Dario Ortiz</a>
+                    <p><a href="catalogo">Dario Ortiz</a>
                     <img src="/plantilla/images/calificacion.png" style="max-width: 50%;"></p> 
-                    <p class="precio">$500,0000</p>
+                    <p class="precio">$500,000</p>
                     </ul>
-                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver Más</a>
+                    <a href="detalles" class="boton boton-amarillo d-block">Ver Más</a>
                 </div>
             </div>
         </div>
 
         <div class="ver-todas">
-            <a href="anuncios.html" class="boton boton-verde">Ver Todas</a>
+            <a href="servicios" class="boton boton-verde">Ver Todas</a>
         </div>
 </br>
     </main>

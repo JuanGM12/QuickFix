@@ -51,12 +51,10 @@
 	<div class="app-wrapper">
 		<div class="contenedor contenedor-footer">
 			<nav class="navegacion">
-				<a href="nosotros.html">Nosotros</a>
-				<a href="anuncios.html">Anuncios</a>
-				<a href="blog.html">Blog</a>
+				<a href="servicios">Todos los Servicios</a>
 				<a href="contacto">Contacto</a>
 			</nav>
-			<p class="copyright">Todos los Derechos Reservados 2023 &copy; </p>
+			<p class="copyright">Todos los Derechos Reservados - QuickFix 2023 &copy; </p>
 		</div>
 	</div>
 </footer>

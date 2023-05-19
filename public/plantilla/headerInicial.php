@@ -19,11 +19,9 @@
 		        </div>
 
                 <nav id="navegacion" class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="anuncios.html">Anuncios</a>
-                    <a href="blog.html">Blog</a>
+                    <a href="servicios">Todos los Anuncios</a>
                     <a href="contacto">Contacto</a>
-                    <a href="index.php?informacion=servicios"><i class="bi bi-person-circle fa-3x" title="Iniciar Sesión"></i></a>
+                    <a href="solicitudes"><i class="bi bi-person-circle fa-3x" title="Iniciar Sesión"></i></a>
                     <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#autenticar"><i class="bi bi-person-circle fa-3x" title="Iniciar Sesión"></i></a> -->
                 </nav>
             </div>
